@@ -53,7 +53,7 @@ function factoryElement(obj, index) {
         ${
             obj?.children || obj?.goto != undefined ?
             `<div class="action">
-                ${obj?.children ? '<span class="children-length">' + obj.children.length + ' 个分类和项目</span>' : ''}
+                ${obj?.children ? '<span class="children-length">' + obj.children.length + ' 个分类或项目</span>' : ''}
             </div>` :
             `<div class="action">
                 <button

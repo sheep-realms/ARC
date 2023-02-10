@@ -67,5 +67,8 @@ let archives = [
                 github: "https://github.com/BakaXL-Launcher/BakaXL"
             }
         ]
+    }, {
+        title: "Sheep-realms Archives",
+        github: "ARC"
     }
 ];
