@@ -35,6 +35,11 @@ h1 {
     background-color: rgba(45, 147, 206, 0.05);
 }
 
+.archives-item:active {
+    transition: background-color 0s;
+    background-color: rgba(45, 147, 206, 0.15);
+}
+
 .archives-item+.archives-item {
     border-top: unset;
 }
