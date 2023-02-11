@@ -39,6 +39,7 @@ function load(info) {
 }
 
 function factoryElement(obj, index) {
+    let ci = childrenCount(obj?.children);
     return `<div
         class="
             archives-item
@@ -53,7 +54,7 @@ function factoryElement(obj, index) {
         ${
             obj?.children || obj?.goto != undefined ?
             `<div class="action">
-                ${obj?.children ? '<span class="children-length">' + obj.children.length + ' 个分类或项目</span>' : ''}
+                ${ci[0] + ci[1] > 0 ? '<span class="children-length">' + (ci[0] + ' 个分类，') + ci[1] + ' 个项目</span>' : ''}
             </div>` :
             `<div class="action">
                 <button
@@ -71,6 +72,19 @@ function factoryElement(obj, index) {
             </div>`
         }
     </div>`;
+}
+
+function childrenCount(obj) {
+    let i = [0, 0];
+    if (obj == undefined) return i;
+    obj.forEach(e => {
+        if (e?.children) {
+            i[0]++;
+        } else {
+            i[1]++;
+        }
+    });
+    return i;
 }
 
 $(document).on('click', '.archives-item-folder', function() {

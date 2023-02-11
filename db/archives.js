@@ -6,6 +6,10 @@ let archives = [
                 title: "Minecraft 相关",
                 children: [
                     {
+                        title: "Minecraft 译名标准化测试",
+                        github: "Minecraft-Translation-Standardization-Test",
+                        demo: "Minecraft-Translation-Standardization-Test"
+                    }, {
                         title: "SMC 工具箱",
                         github: "SMC-Tools",
                         demo: "SMC-Tools/misc/about/index.html"
@@ -16,6 +20,9 @@ let archives = [
                     }, {
                         title: "透视与高亮资源包反馈仓库",
                         github: "Perspective-highlight"
+                    }, {
+                        title: "夜明灯 —— 照亮无人涉足的黑夜",
+                        github: "Minecraft-Night-Light-Resource-Pack"
                     }, {
                         title: "假冒伪劣合成数据包",
                         github: "Minecraft-FakeCraft"
@@ -53,10 +60,43 @@ let archives = [
                 title: "Enigma",
                 github: "Enigma",
                 demo: "Enigma"
+            }, {
+                title: "远古作品",
+                children: [
+                    {
+                        title: "旧档案馆",
+                        github: "sheep-realms.github.io",
+                        demo: "index.html"
+                    }, {
+                        title: "SPR Converter",
+                        github: "sheep-realms.github.io/tree/master/converter/",
+                        demo: "converter"
+                    }, {
+                        title: "营销号文章生成器",
+                        github: "sheep-realms.github.io/tree/master/lol/yingxiaohao.html",
+                        demo: "lol/yingxiaohao.html"
+                    }, {
+                        title: "来自 1975 年的 MCBBS",
+                        github: "sheep-realms.github.io/tree/master/lol/mcbbs_1975",
+                        demo: "lol/mcbbs_1975"
+                    }, {
+                        title: "MCBBS 脚本控制台",
+                        github: "sheep-realms.github.io/tree/master/cmd/mcbbs.html",
+                        demo: "cmd/mcbbs.html"
+                    }, {
+                        title: "SPR Bar",
+                        github: "sheep-realms.github.io/tree/master/sprbar/",
+                        demo: "sprbar"
+                    }, {
+                        title: "桌面",
+                        github: "sheep-realms.github.io/tree/master/work",
+                        demo: "work"
+                    }
+                ]
             }
         ]
     }, {
-        title: "团队参与",
+        title: "多人参与",
         children: [
             {
                 title: "梗体中文资源包",
@@ -65,6 +105,9 @@ let archives = [
             }, {
                 title: "BakaXL 异域计划",
                 github: "https://github.com/BakaXL-Launcher/BakaXL"
+            }, {
+                title: "哔哩哔哩 API 收集整理",
+                github: "https://github.com/SocialSisterYi/bilibili-API-collect"
             }
         ]
     }, {

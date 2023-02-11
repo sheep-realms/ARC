@@ -28,7 +28,7 @@ h1 {
     flex-direction: row;
     min-height: 46px;
     padding: 0 4px;
-    cursor: pointer;
+    transition: background-color .15s;
 }
 
 .archives-item:hover {
@@ -55,6 +55,11 @@ h1 {
 .archives-item>.action>.children-length {
     font-size: 14px;
     color: #888;
+}
+
+.archives-item-folder,
+.archives-item[data-goto] {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 456px) {
