@@ -42,6 +42,10 @@ let archives = [
                     }
                 ]
             }, {
+                title: "Echo",
+                github: "Echo",
+                demo: "Echo"
+            }, {
                 title: "「萌要素」随机生成器",
                 github: "MoeYooso-Random-Generator",
                 demo: "MoeYooso-Random-Generator"
