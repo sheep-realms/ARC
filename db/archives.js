@@ -42,6 +42,10 @@ let archives = [
                     }
                 ]
             }, {
+                title: "Pixel Hotkeys",
+                github: "pixel-hotkeys",
+                demo: "pixel-hotkeys"
+            }, {
                 title: "Echo",
                 github: "Echo",
                 demo: "Echo"
