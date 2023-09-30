@@ -42,6 +42,14 @@ let archives = [
                     }
                 ]
             }, {
+                title: "Abuser",
+                github: "Abuser",
+                demo: "Abuser"
+            }, {
+                title: "Echo-Live",
+                github: "Echo-Live",
+                demo: "Echo-Live/editor.html"
+            }, {
                 title: "Echo",
                 github: "Echo",
                 demo: "Echo"
