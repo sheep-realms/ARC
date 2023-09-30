@@ -50,6 +50,10 @@ let archives = [
                 github: "Echo-Live",
                 demo: "Echo-Live/editor.html"
             }, {
+                title: "Pixel Hotkeys",
+                github: "pixel-hotkeys",
+                demo: "pixel-hotkeys"
+            }, {
                 title: "Echo",
                 github: "Echo",
                 demo: "Echo"
