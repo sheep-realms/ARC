@@ -42,6 +42,10 @@ let archives = [
                     }
                 ]
             }, {
+                title: "Ancient Cube",
+                github: "ancient-cube",
+                demo: "ancient-cube"
+            }, {
                 title: "Abuser",
                 github: "Abuser",
                 demo: "Abuser"
